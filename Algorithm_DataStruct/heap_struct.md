@@ -7,7 +7,7 @@
 * Complete binary tree
 * Heap property
 
----
+
 
 > **Complete binary tree**
 
@@ -44,7 +44,7 @@ Max heap property란 부모 노드의 값이 자식노드들의 값보다 크거
 
 이러한 형태를 가지는 tree를 ***Max heap property***를 만족한다라고 말할수 있습니다.
 
----
+
 
 > **Complete binary tree와 일차원 배열**
 
@@ -122,7 +122,7 @@ void maxHeapify(int[] array, int parentIndex, int size) {
 
 > **Max Heap Build**
 
-<img src="C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\max_heap_build.png" alt="images" style="zoom:40%;" />
+<img src="../images/max_heap_build.png" alt="images" style="zoom:40%;" />
 
 초기의 배열은 정렬뿐만 아니라 heap property 조건또한 만족하지 못합니다. 
 
@@ -151,23 +151,23 @@ Heap sort는 해당 성질을 이용하여 정렬하는 정렬 알고리즘입�
 
 * Max heap property를 만족하는 tree
 
-<img src="C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\heap_sort1.png" alt="image" style="zoom:40%;" />
+<img src="../images/heap_sort1.png" alt="image" style="zoom:40%;" />
 
 * 16과 1 교환 (16은 정렬이 완료되어짐)
 
-<img src="C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\heap_sort2.png" alt="image" style="zoom:40%;" />
+<img src="../images/heap_sort2.png" alt="image" style="zoom:40%;" />
 
 * 루트노드의 1에 대하여 heapify 연산 수행
 
-<img src="C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\heap_sort3.png" alt="image" style="zoom:40%;" />
+<img src="../images/heap_sort3.png" alt="image" style="zoom:40%;" />
 
 * 14와 1 교환 (14는 정렬이 완료되어짐)
 
-<img src="C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\heap_sort4.png" alt="image" style="zoom:40%;" />
+<img src="../images/heap_sort4.png" alt="image" style="zoom:40%;" />
 
 * Heap Sort 결과
 
-<img src="C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\heap_sort5.png" alt="image" style="zoom:40%;" />
+<img src="../images/heap_sort5.png" alt="image" style="zoom:40%;" />
 
 > **Heap Sort 시간복잡도**
 
@@ -246,7 +246,7 @@ void heapSort(int[] array, int size) {
 
 > **insert(x)**
 
-![image](C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\priority_queue_insert.png)
+![image](../images/priority_queue_insert.png)
 
 새로운 값 15를 최대 우선순위 큐에 저장하는 연산 insert(15)의 과정은 위의 그림을 통해 쉽게 이해할수 있습니다.
 
@@ -268,7 +268,7 @@ void heapSort(int[] array, int size) {
 
 > **extractMax()**
 
-![images](C:\Users\kssrc\OneDrive\바탕 화면\TIL\images\extract_max.png)
+![image](../images/extract_max.png)
 
 extractMax()는 최대값을 뽑아내는 연산으로 루트노드의 값을 취하게 됩니다. 위의 그림에서는 최대값이 20이 되겠습니다. 그 다음 마지막 노드 7을 새롭게 루트노드로 대체하게 되는데 이때 tree를 보았을때 루트노드의 왼쪽 sub tree와 오른쪽 sub tree는 heap property를 만족하지만 루트노드에 대해서는 만족하지 못하기 때문에 heap 자료구조를 유지하기 위해서는 루트노드에 대해서 heapify 연산을 수행해야 합니다. 
 
