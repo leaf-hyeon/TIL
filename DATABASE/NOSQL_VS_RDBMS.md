@@ -17,7 +17,7 @@ RDBMS의 장점은 다음과 같습니다.
 - ACID를 보장하기 위한 여러가지 부가적인 작업들로 인한 overhead 발생
 - 수평적 확장이 어렵다.
 
-![acid_overhead](/Users/kakaocommerce/TIL/images/acid_overhead.jpeg)
+![acid_overhead](/images/acid_overhead.jpeg)
 
 (실제로 읽고 쓰는데 필요한 부분은 12%밖에 안되고 나머지 88%의 부가적인 작업 발생 )
 
