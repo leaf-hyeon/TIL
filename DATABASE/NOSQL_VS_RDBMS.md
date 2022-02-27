@@ -60,9 +60,9 @@ NOSQL의 장점은 다음과 같습니다
   - RDBMS에서 지원하는 대부분의 인덱스를 지원하기 때문에 쿼리의 성능을 향상시킬수 있다.
 - 읽기/쓰기 성능이 RDBMS에 비해 빠르다.
 
-![mongodb_read_performance][/images/mongodb_read_performance.png]
+![mongodb_read_performance](/images/mongodb_read_performance.png)
 
-![mongodb_write_performance][mongodb_vs_sql_performance_chart_cloudduggu.png]
+![mongodb_write_performance](mongodb_vs_sql_performance_chart_cloudduggu.png)
 
 
 
