@@ -62,7 +62,7 @@ NOSQL의 장점은 다음과 같습니다
 
 ![mongodb_read_performance](/images/mongodb_read_performance.png)
 
-![mongodb_write_performance](mongodb_vs_sql_performance_chart_cloudduggu.png)
+![mongodb_write_performance](/images/mongodb_vs_sql_performance_chart_cloudduggu.png)
 
 
 
